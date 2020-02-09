@@ -1,0 +1,31 @@
+{
+  "name": "reptile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xifenzs/reptile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xifenzs/reptile/issues"
+  },
+  "homepage": "https://github.com/xifenzs/reptile#readme",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "superagent": "^5.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@types/cheerio": "^0.22.16",
+    "@types/superagent": "^4.1.6"
+  }
+}
